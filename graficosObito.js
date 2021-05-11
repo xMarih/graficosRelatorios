@@ -125,7 +125,7 @@ function graficosObito() {
           vetMes[i] = request[i]["mes"]
         }
 
-        var ctx = document.getElementById('graficos').getContext('2d');
+        var ctx = document.getElementById('graficosObito').getContext('2d');
         var chart = new Chart(ctx, {
           type: 'line',
           data: {
